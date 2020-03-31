@@ -1,6 +1,7 @@
 header	{
 	height: 200px;
-	background-image: url("user_picture_default.png"), url("look_main.jpg"); 
+	/*background-image: url("../images/user_picture_default.png"), url("../images/look_main.jpg"); */
+	background-image: url("../images/user_picture_default.png"), url("../images/look_main.jpg"); 
 	background-position: center, center;
 	background-repeat: no-repeat;
 	margin-left: 0px;
@@ -122,7 +123,7 @@ table	{
 /*---------------My Skills-------------------*/
 
 #soft_list	{
-	list-style-image: url("list.png"); /*маркеры списка*/
+	list-style-image: url("../images/list.png"); /*маркеры списка*/
 	list-style-position: inside; /*размещение маркера относительно текста*/
 }
 
