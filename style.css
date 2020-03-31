@@ -1,0 +1,199 @@
+header	{
+	height: 200px;
+	background-image: url("user_picture_default.png"), url("look_main.jpg"); 
+	background-position: center, center;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-size: 100px 100px, cover;
+}
+
+h1	{
+	font-size: 35px;	/*Размер шрифта*/
+	font-style: italic;	/*Наклонный шрифт*/
+	font-weight: 520;	/*Толщина текста*/
+	color: #333333;	/*Цвет текста*/
+	text-align: center;	/*Горизонтальное расположение текста*/
+	word-spacing: 4px;	/*Расстояние между словами*/
+}
+
+h2	{
+	font-family: cursive, Arial, Calibry;
+	font-size: 25px;
+	font-weight: 450;
+	color: #00CCFF;
+	text-align: center;
+}
+
+h3	{
+	font-size: 20px;
+	font-style: italic;
+	color: #00CCFF;
+}
+
+body	{
+	background-color: #FFFFFF; /*цвет фона элемента*/ 
+	font-family: Calibri, Arial, "Times New Roman", serif;	/*Шрифт элемента*/
+	font-weight: 400;
+	text-indent: 20px;	/*Отступ*/
+	letter-spacing: 1px;
+	background-color: #F5F5F5; /*цвет фона элемента*/ 
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+section	{
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; /*цвет фона элемента*/ 
+	-webkit-border-radius: 24px; /*закругленные углы*//*Safari & Chrome*/
+	-moz-border-radius: 24px; /*Firefox*/
+	-o-border-radius: 24px; /*Opera*/
+	-ms-border-radius: 24px; /*IE*/
+}
+
+/*----------Links----------*/
+
+a	{
+	text-decoration: none;
+	word-spacing: 5px;
+	letter-spacing: 2px;
+	color: #00CCFF;
+}
+
+a:link	{
+	color: #00CCFF;
+}
+a:visited	{
+	color: #00CED1;
+}
+a:hover	{
+	color: #F4A460;
+}
+a:active	{
+	color: #D2691E;
+}
+
+a::selection	{
+	background: #8bc34a;
+	color: #fff;
+}
+/*-----------------------*/
+
+p	{
+	margin-left: 30px;
+}
+p::selection	{
+	background: #8bc34a;
+	color: #fff;
+}
+
+span::selection	{
+	background: #8bc34a;
+	color: #fff;
+}
+
+#italic	{
+	font-style: italic;
+}
+
+#underline	{
+	text-decoration:underline;
+}
+
+/*-----------About Me-----------*/
+
+#nearfoto	{
+	margin-top: 40px;
+}
+
+#img	{
+	margin-left: 30px;
+	float: left;
+}
+
+/*--------------My Coding Schedule-------------*/
+
+table	{
+	text-align: center;
+	caption-side: top;	/*положение заголовка таблицы*/
+}
+
+/*---------------My Skills-------------------*/
+
+#soft_list	{
+	list-style-image: url("list.png"); /*маркеры списка*/
+	list-style-position: inside; /*размещение маркера относительно текста*/
+}
+
+#progress	{
+	margin-left: -10px;
+	text-indent: 0px;
+}
+
+#prog_sq	{
+	margin-left: 20px;
+}
+#prog_h	{
+	margin-left: 36px;
+}
+#prog_c	{
+	margin-left: 52px;
+}
+#prog_j	{
+	margin-left: 4px;
+}
+/*--------------------My Media--------------------*/
+#video	{
+		margin-left: 50px;
+}
+/*--------------------Contact Me---------------*/
+#name_div	{
+	margin-left: 50px;
+	text-indent: 0px;
+}
+
+#name::-webkit-input-placeholder {color: #696969; font-family: Arial}
+#name::-moz-input-placeholder {color: #696969; font-family: Arial}
+#name::-ms-input-placeholder {color: #696969; font-family: Arial}
+#name::-o-input-placeholder {color: #696969; font-family: Arial}
+
+#email::-webkit-input-placeholder {color: #696969; font-family: Arial}
+#email::-moz-input-placeholder {color: #696969; font-family: Arial}
+#email::-ms-input-placeholder {color: #696969; font-family: Arial}
+#email::-o-input-placeholder {color: #696969; font-family: Arial}
+
+#textarea::-webkit-input-placeholder {color: #696969; font-family: Arial}
+#textarea::-moz-input-placeholder {color: #696969; font-family: Arial}
+#textarea::-ms-input-placeholder {color: #696969; font-family: Arial}
+#textarea::-o-input-placeholder {color: #696969; font-family: Arial}
+
+#sub	{
+	cursor: pointer;
+	width: 166px;
+	height: 25px;
+	background: -webkit-radial-gradient(center, #00BFFF, #87CEFA);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	-ms-border-radius: 15px;
+	font-weight: 600;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+/*---------------Follow Me---------------*/
+
+#folow_link	{
+	text-align: center;
+	margin-left: 30px;
+}
+
+/*-------------------------------------------*/
+footer	{
+	height: 100%;
+	background: -webkit-linear-gradient(110deg, #FFDAB9, #F4A460, #FF8C00, #D2691E, #8B4513);
+	background: -moz-linear-gradient(110deg, #FFDAB9, #F4A460, #FF8C00, #D2691E, #8B4513);
+	background: -o-linear-gradient(110deg, #FFDAB9, #F4A460, #FF8C00, #D2691E, #8B4513);
+	background: -ms-linear-gradient(110deg, #FFDAB9, #F4A460, #FF8C00, #D2691E, #8B4513);
+	background-size: 100% 100%;
+}
